@@ -1,0 +1,22 @@
+{
+  "env": {
+    "jasmine": true,
+    "node": true,
+    "mocha": true,
+    "browser": true,
+    "builtin": true,
+     "es6": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "experimentalObjectRestSpread": true
+  },
+  "globals": {
+    "$": true
+  },
+  "rules": {
+    "indent": [2, 2],
+    "no-undef": 2,
+    "semi": [2, "always"]
+  }
+}
