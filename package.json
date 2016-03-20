@@ -1,6 +1,6 @@
 {
   "name": "slush-fragphace-webapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webapp scaffolding for Node.js with Express, Mongoose, Webpack ",
   "main": "index.js",
   "scripts": {
