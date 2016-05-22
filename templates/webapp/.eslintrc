@@ -7,9 +7,11 @@
     "builtin": true,
      "es6": true
   },
-  "ecmaFeatures": {
-    "jsx": true,
-    "experimentalObjectRestSpread": true
+  parserOptions: {
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    },
   },
   "globals": {
     "$": true
