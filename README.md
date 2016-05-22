@@ -1,5 +1,5 @@
 # slush-fragphace-webapp
-[Slush](http://slushjs.github.io/) opinionated scaffolding for Node.js with Express, Mongoose, Webpack and others.
+[Slush](http://slushjs.github.io/) opinionated scaffolding for Node.js with Express, Mongoose, React, Redux, Webpack and others.
 
 ## Usage
 

@@ -15,8 +15,12 @@ gulp.task('default', function (done) {
   }], function (answers) {
     if (!answers.moveon) return done();
 
+    const src = [
+      __dirname + '/templates/webapp/**'
+    ];
+
     gulp
-      .src(__dirname + '/templates/webapp/**')
+      .src(src, { dot: true })
       .pipe(template(answers))
       .pipe(conflict('./'))
       .pipe(gulp.dest('./'))
